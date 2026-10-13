@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScanBubble</string>
+    <string name="service_label">ScanBubble (scan rapide)</string>
+    <string name="service_description">Détecte le raccourci des touches de volume, affiche la bulle flottante et colle le code scanné dans le champ de texte actif. Aucune donnée n\'est collectée ni envoyée.</string>
+
+    <string name="scan_hint">Placez le code dans le cadre</string>
+    <string name="close">Fermer</string>
+    <string name="torch">Lampe</string>
+
+    <string name="bubble_description">Scanner un code</string>
+    <string name="toast_pasted">Code collé : %1$s</string>
+    <string name="toast_copied">Copié dans le presse-papiers : %1$s</string>
+    <string name="toast_camera_denied">Autorisation caméra refusée</string>
+
+    <string name="step1_title">1. Autoriser la caméra</string>
+    <string name="step2_title">2. Activer le service d\'accessibilité</string>
+    <string name="step2_help">Réglages → Accessibilité → Applications installées → ScanBubble → Activer.\n\nSi l\'option est grisée (Android 13+) : Réglages → Applications → ScanBubble → menu ⋮ en haut à droite → « Autoriser les paramètres restreints », puis recommencez.</string>
+    <string name="step3_title">3. Affichage par-dessus les autres applis (recommandé)</string>
+    <string name="step3_help">Permet au raccourci volume d\'ouvrir le scanner même si la bulle est masquée.</string>
+    <string name="settings_title">Réglages</string>
+
+    <string name="btn_grant_camera">Autoriser la caméra</string>
+    <string name="btn_open_accessibility">Ouvrir les réglages d\'accessibilité</string>
+    <string name="btn_open_overlay">Autoriser l\'affichage par-dessus</string>
+    <string name="btn_test">Tester le scan</string>
+
+    <string name="status_ok">✓ OK</string>
+    <string name="status_todo">✗ À faire</string>
+
+    <string name="shortcut_title">Raccourci avec les touches de volume</string>
+    <string name="shortcut_double_down">Double appui sur Volume −</string>
+    <string name="shortcut_double_up">Double appui sur Volume +</string>
+    <string name="shortcut_both">Volume + et Volume − en même temps</string>
+    <string name="shortcut_off">Désactivé</string>
+    <string name="shortcut_note">Le premier appui change quand même le volume d\'un cran ; le second est intercepté.</string>
+
+    <string name="opt_bubble">Afficher la bulle flottante</string>
+    <string name="opt_autopaste">Coller automatiquement dans le champ de texte actif</string>
+    <string name="opt_enter">Appuyer sur Entrée après le collage (Android 11+)</string>
+    <string name="opt_vibrate">Vibrer quand un code est lu</string>
+</resources>
