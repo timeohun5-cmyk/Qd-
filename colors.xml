@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="bubble">#4F46E5</color>
-    <color name="ok">#15803D</color>
-    <color name="todo">#B91C1C</color>
-    <color name="scrim">#99000000</color>
-    <color name="white">#FFFFFF</color>
-</resources>
